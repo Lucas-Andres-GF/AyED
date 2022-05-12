@@ -1,0 +1,28 @@
+a) 
+    Para recorrer en profundidad un arbol general, se pueden implementar los 3 recorridos ya
+    vistos, PreOrden - PostOrden y InOrden.
+    ya que estos recorren desde la raiz a las hojas, de distintas maneras.
+
+    PreOrden = Primero la raiz, luego los hijos
+    InOrden = Primero el 1er hijo izquierdo, la raiz y el resto de los hijos
+    PostOrden = Primero todos los hijos de izquierda a derecha y luego la raiz
+
+b)
+    Para recorrer un arbol general por niveles, implementamos el recorrido por niveles, el cual
+    imprime la raiz, luegos sus hijos y luego sus hijos asi sucesivamente. 
+
+c)  
+    El recorrido PreOrden, es igual, los demas cambian un poco. el InOrden, se toma 
+    Primero el  1er hijo izquierdo, la raiz y el resto de los hijos, pensado un poco, 
+    en el los arboles binarios, sucedia lo mismo, ya que procesamos el izquierdo, la raiz y
+    luego el hijo derecho, que en los genereles seria "El resto de los hijos".
+    para el PreOrden, Primero, "todos los hijos de la izquierda, luego de la derecha y 
+    por el ultimo la raiz, igual a los arboles binarios. 
+
+d) 
+    No, ninguna. el orden depende del requerimiento a la hora crearlo. 
+
+e)
+    La relacion, es que en los arboles binarios, el grado maximo era 2, y el minimo grado
+    de los nodos internos era 1.
+
